@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Hostal Casa el prado Cartagena</title>
-    <link rel="stylesheet" href="../assets/CSS/index.css">
+    <link rel="stylesheet" href="../assets/CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/index.css">
     <link rel="stylesheet" href="../assets/CSS/fontawesome.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,172 +24,75 @@
         <!-- Menú de opciones -->
         <nav>
             <input type="checkbox" id="check">
-    
+
             <label for="check" class="checkbtn">
-    
+
                 <i class="fa-solid fa-bars"></i>
             </label>
             <a href="../index.html" class="enlace">
                 <img src="../assets/img/logo-hostal-casa el prado.jpg" class="logo-menu">
             </a>
-    
-            <ul class="menu"> 
+
+            <ul class="menu">
                 <li><a class="active" href="../index.html">Inicio</a></li>
                 <li><a href="habitaciones.html">Habitaciones</a></li>
                 <li><a href="nosotros.html">Nosotros</a></li>
                 <li><a href="contacto.html">Contacto</a></li>
-    
+
             </ul>
         </nav>
 
     </header>
 
 
-    <section >
+    <section>
         <div class="slider">
+            <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
+               
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../assets/img/hab2.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption">
+                            <h1 class="hab-h1">Nuestras Habitaciones</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-            <ul>
-                <li>
-                    <img src="../assets/img/imagen-banner.jpg">
-                    
-                </li>
-                <li>
-                    <img src="../assets/img/hab3.jpg" />
-                    
-                </li>
-                <li>
-                    <img src="../assets/img/sala.jpg" />
-                </li>
-                <li>
-                    <img src="../assets/img/hab2.jpg" />
-                </li>
-            </ul>
-        
-        </div>
-
-     </section>
+    </section>
 
     <main class="body-hostal">
 
 
-        <div class="tit-hab">
-
-            <h1 class="hab-h1">Nuestras Habitaciones</h1>
-            <hr>
-
-        </div>
         <section>
             <div class="habitacion1">
                 <div class="desc-hab">
-                    <img class="hab-img" src="../assets/img/habitaciones1.jpg" alt="" width="600px" height="400px">
+                    <img class="hab-img" src="../assets/img/habitaciones1.jpg" alt="" width="600px" height="296px">
                 </div>
 
                 <div class="desc-hab-1 habitaciones-desc-index">
-                    <h2 class="subtitle"> HABITACION DOBLE ECONOMICA </h2>
-                    <p class="hab">
-                        Cama doble ventilador y baño privado
-                    </p>
-                        <span class="hab">
-                            Caracteristicas:
-                        </span>
-                    <ul class="hab-ul">
-                        <li class="hab-li">
-                            <i class="fa-solid fa-wifi"></i>
-                            WIFI
-                        </li>
-                        
-                        <li class="hab-li">
-                            <i class="fa-solid fa-fan"></i>
-                            Ventilador
-                        </li>
-                        <li class="hab-li">
-                            <i class="fa-solid fa-shower"></i>
-                            Baño privado
-                        </li>
-                        <li class="hab-li">
-                            <i class="fa-solid fa-rug"></i>
-                            Toallas de baño
-                        </li>
-                        <li class="hab-li">
-                            <i class="fa-solid fa-kitchen-set"></i>
-                            Acceso a cocina
-                        </li>
-                        <li class="hab-li">
-                            <i class="fa-solid fa-square-parking"></i>
-                            Parqueo de acceso publico
-                        </li>
-                    </ul>
+                    <div class="titulo-hab-boton">
+                        <div class="hab-descr-ec">
+                            <h2 class="subtitle"> HABITACION DOBLE ECONOMICA </h2>
+                            <p class="hab">
+                                Cama doble ventilador y baño privado
+                            </p>
+                        </div>
 
-                   
-                    <div class="boton">
-                        <a class="boton boton-re" target="blank"
-                            href="https://api.whatsapp.com/send?phone=+573194792521">RESERVAR</a>
+
+                        <div class="boton">
+                            <span class="hab precio">
+                                $40.000 COP / noche
+                            </span>
+                            <br><br>
+                            <a class="boton boton-re" target="blank"
+                                href="https://api.whatsapp.com/send?phone=+573194792521">RESERVAR</a>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <hr class="hab-hr">
-
-            <div class="habitacion1">
-                <div class="desc-hab">
-                    <img class="hab-img" src="../assets/img/habitaciones1.jpg" alt="" width="600px" height="400px">
-                </div>
-
-                <div class="desc-hab-1 habitaciones-desc-index">
-                    <h2 class="subtitle"> HABITACION DOBLE ESTANDAR </h2>
-                    <p class="hab">
-                        Cama doble Aire acondicionado* y baño privado
-                    </p>
-                        <span class="hab">
-                            Caracteristicas:
-                        </span>
-
-                    <ul class="hab-ul">
-                        <li class="hab-li">
-                            <i class="fa-solid fa-wifi"></i>
-                            WIFI
-                        </li>
-                        <li class="hab-li">
-                            <i class="fa-solid fa-shower"></i>
-                            Baño privado
-                        </li>
-                        <li class="hab-li">
-                            <i class="fa-solid fa-rug"></i>
-                            Toallas de baño
-                        </li>
-                        <li class="hab-li">
-                            <i class="fa-solid fa-kitchen-set"></i>
-                            Acceso a cocina
-                        </li>
-                        <li class="hab-li">
-                            <i class="fa-solid fa-square-parking"></i>
-                            Parqueo de acceso publico
-                        </li>
-                        <li class="hab-li">
-                            <i class="fa-solid fa-snowflake"></i>
-                            Aire acondicionado 4 horas
-                        </li>
-                    </ul>
 
 
-                  
-                    <div class="boton">
-                        <a class="boton boton-re" target="blank"
-                            href="https://api.whatsapp.com/send?phone=+573194792521">RESERVAR</a>
-                    </div>
-                </div>
-            </div>
-            <hr class="hab-hr">
+                    <div class="lista-hab">
 
-            <div class="habitacion1">
-                <div class="desc-hab">
-                    <img class="hab-img" src="../assets/img/habitaciones1.jpg" alt="" width="600px" height="400px">
-                </div>
-
-                <div class="desc-hab-1 habitaciones-desc-index">
-                    <h2 class="subtitle"> HABITACION DOBLE 1 O 2 CAMAS </h2>
-                    <p class="hab">
-                        Cama doble O dos camas individuales television, Aire acondicionado*
-                    </p>
                         <span class="hab">
                             Caracteristicas:
                         </span>
@@ -196,6 +100,11 @@
                             <li class="hab-li">
                                 <i class="fa-solid fa-wifi"></i>
                                 WIFI
+                            </li>
+
+                            <li class="hab-li">
+                                <i class="fa-solid fa-fan"></i>
+                                Ventilador
                             </li>
                             <li class="hab-li">
                                 <i class="fa-solid fa-shower"></i>
@@ -213,32 +122,54 @@
                                 <i class="fa-solid fa-square-parking"></i>
                                 Parqueo de acceso publico
                             </li>
-                            <li class="hab-li">
-                                <i class="fa-solid fa-snowflake"></i>
-                                Aire acondicionado 4 horas
-                            </li>
                         </ul>
+                    </div>
 
-                   
-                    <div class="boton">
+                    <div class="boton2">
+                        <span class="hab precio">
+                            $40.000 COP / noche
+                        </span>
+                        <br><br>
                         <a class="boton boton-re" target="blank"
                             href="https://api.whatsapp.com/send?phone=+573194792521">RESERVAR</a>
                     </div>
+
                 </div>
+
+
             </div>
+
 
             <hr class="hab-hr">
 
             <div class="habitacion1">
                 <div class="desc-hab">
-                    <img class="hab-img" src="../assets/img/habitaciones1.jpg" alt="" width="600px" height="400px">
+                    <img class="hab-img" src="../assets/img/habitaciones1.jpg" alt="" width="600px" height="296px">
                 </div>
 
                 <div class="desc-hab-1 habitaciones-desc-index">
-                    <h2 class="subtitle"> HABITACION TRIPLE </h2>
-                    <p class="hab">
-                        1 CAMA DOBLE Y UNA INDIVIDUAL television, Aire acondicionado*
-                    </p>
+                    <div class="titulo-hab-boton">
+                        <div class="hab-descr-ec">
+                            <h2 class="subtitle"> HABITACION DOBLE ESTANDAR </h2>
+                            <p class="hab">
+                                Cama doble Aire acondicionado* y baño privado
+                            </p>
+                        </div>
+
+
+                        <div class="boton">
+                            <span class="hab precio">
+                                $45.000 COP / noche
+                            </span>
+                            <br><br>
+                            <a class="boton boton-re" target="blank"
+                                href="https://api.whatsapp.com/send?phone=+573194792521">RESERVAR</a>
+                        </div>
+                    </div>
+
+
+                    <div class="lista-hab">
+
                         <span class="hab">
                             Caracteristicas:
                         </span>
@@ -247,6 +178,11 @@
                                 <i class="fa-solid fa-wifi"></i>
                                 WIFI
                             </li>
+
+                            <li class="hab-li">
+                                <i class="fa-solid fa-snowflake"></i>
+                                Aire acondicionado 4 horas
+                            </li>
                             <li class="hab-li">
                                 <i class="fa-solid fa-shower"></i>
                                 Baño privado
@@ -263,31 +199,50 @@
                                 <i class="fa-solid fa-square-parking"></i>
                                 Parqueo de acceso publico
                             </li>
-                            <li class="hab-li">
-                                <i class="fa-solid fa-snowflake"></i>
-                                Aire acondicionado 4 horas
-                            </li>
                         </ul>
+                    </div>
 
-                   
-                    <div class="boton">
+                    <div class="boton2">
+                        <span class="hab precio">
+                            $45.000 COP / noche
+                        </span>
+                        <br><br>
                         <a class="boton boton-re" target="blank"
                             href="https://api.whatsapp.com/send?phone=+573194792521">RESERVAR</a>
                     </div>
+
                 </div>
             </div>
             <hr class="hab-hr">
 
             <div class="habitacion1">
                 <div class="desc-hab">
-                    <img class="hab-img" src="../assets/img/habitaciones1.jpg" alt="" width="600px" height="400px">
+                    <img class="hab-img" src="../assets/img/habitaciones1.jpg" alt="" width="600px" height="296px">
                 </div>
 
                 <div class="desc-hab-1 habitaciones-desc-index">
-                    <h2 class="subtitle"> HABITACION CUADRUPLE </h2>
-                    <p class="hab">
-                        Cama doble y 2 individuales television, Aire acondicionado*
-                    </p>
+                    <div class="titulo-hab-boton">
+                        <div class="hab-descr-ec">
+                            <h2 class="subtitle"> HABITACION DOBLE 1 O 2 CAMAS </h2>
+                            <p class="hab">
+                                Cama doble O dos camas individuales television, Aire acondicionado*
+                            </p>
+                        </div>
+
+
+                        <div class="boton">
+                            <span class="hab precio">
+                                $50.000 COP / noche
+                            </span>
+                            <br><br>
+                            <a class="boton boton-re" target="blank"
+                                href="https://api.whatsapp.com/send?phone=+573194792521">RESERVAR</a>
+                        </div>
+                    </div>
+
+
+                    <div class="lista-hab">
+
                         <span class="hab">
                             Caracteristicas:
                         </span>
@@ -296,6 +251,11 @@
                                 <i class="fa-solid fa-wifi"></i>
                                 WIFI
                             </li>
+
+                            <li class="hab-li">
+                                <i class="fa-solid fa-snowflake"></i>
+                                Aire acondicionado 4 horas
+                            </li>
                             <li class="hab-li">
                                 <i class="fa-solid fa-shower"></i>
                                 Baño privado
@@ -312,39 +272,139 @@
                                 <i class="fa-solid fa-square-parking"></i>
                                 Parqueo de acceso publico
                             </li>
+                        </ul>
+                    </div>
+
+                    <div class="boton2">
+                        <span class="hab precio">
+                            $50.000 COP / noche
+                        </span>
+                        <br><br>
+                        <a class="boton boton-re" target="blank"
+                            href="https://api.whatsapp.com/send?phone=+573194792521">RESERVAR</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <hr class="hab-hr">
+
+            <div class="habitacion1">
+                <div class="desc-hab">
+                    <img class="hab-img" src="../assets/img/habitaciones1.jpg" alt="" width="600px" height="296px">
+                </div>
+
+                <div class="desc-hab-1 habitaciones-desc-index">
+                    <div class="titulo-hab-boton">
+                        <div class="hab-descr-ec">
+                            <h2 class="subtitle"> HABITACION TRIPLE </h2>
+                            <p class="hab">
+                                1 CAMA DOBLE Y UNA INDIVIDUAL, Aire acondicionado*
+
+                            </p>
+                        </div>
+
+
+                        <div class="boton">
+                            <span class="hab precio">
+                                $60.000 COP / noche
+                            </span>
+                            <br><br>
+                            <a class="boton boton-re" target="blank"
+                                href="https://api.whatsapp.com/send?phone=+573194792521">RESERVAR</a>
+                        </div>
+                    </div>
+
+
+                    <div class="lista-hab">
+
+                        <span class="hab">
+                            Caracteristicas:
+                        </span>
+                        <ul class="hab-ul">
+                            <li class="hab-li">
+                                <i class="fa-solid fa-wifi"></i>
+                                WIFI
+                            </li>
+
                             <li class="hab-li">
                                 <i class="fa-solid fa-snowflake"></i>
                                 Aire acondicionado 4 horas
                             </li>
+                            <li class="hab-li">
+                                <i class="fa-solid fa-shower"></i>
+                                Baño privado
+                            </li>
+                            <li class="hab-li">
+                                <i class="fa-solid fa-rug"></i>
+                                Toallas de baño
+                            </li>
+                            <li class="hab-li">
+                                <i class="fa-solid fa-kitchen-set"></i>
+                                Acceso a cocina
+                            </li>
+                            <li class="hab-li">
+                                <i class="fa-solid fa-square-parking"></i>
+                                Parqueo de acceso publico
+                            </li>
                         </ul>
+                    </div>
 
-                    
-                    <div class="boton">
+                    <div class="boton2">
+                        <span class="hab precio">
+                            $60.000 COP / noche
+                        </span>
+                        <br><br>
                         <a class="boton boton-re" target="blank"
                             href="https://api.whatsapp.com/send?phone=+573194792521">RESERVAR</a>
                     </div>
+
                 </div>
             </div>
             <hr class="hab-hr">
 
             <div class="habitacion1">
                 <div class="desc-hab">
-                    <img class="hab-img" src="../assets/img/habitaciones1.jpg" alt="" width="600px" height="400px">
+                    <img class="hab-img" src="../assets/img/habitaciones1.jpg" alt="" width="600px" height="296px">
                 </div>
 
                 <div class="desc-hab-1 habitaciones-desc-index">
-                    <h2 class="subtitle"> HABITACION TRIPLE CON BALCON </h2>
-                    <p class="hab">
-                        3 cama individuales ventilador, Aire acondicionado*, baño externo a la habitaciòn
-                    </p>
-                        <span class="hab">
-                        Caracteristicas:
-                        </span>
+                    <div class="titulo-hab-boton">
+                        <div class="hab-descr-ec">
+                            <h2 class="subtitle"> HABITACION CUADRUPLE
+                            </h2>
+                            <p class="hab">
+                                Cama doble y 2 individuales, Aire acondicionado*
 
+                            </p>
+                        </div>
+
+
+                        <div class="boton">
+                            <span class="hab precio">
+                                $90.000 COP / noche
+                            </span>
+                            <br><br>
+                            <a class="boton boton-re" target="blank"
+                                href="https://api.whatsapp.com/send?phone=+573194792521">RESERVAR</a>
+                        </div>
+                    </div>
+
+
+                    <div class="lista-hab">
+
+                        <span class="hab">
+                            Caracteristicas:
+                        </span>
                         <ul class="hab-ul">
                             <li class="hab-li">
                                 <i class="fa-solid fa-wifi"></i>
                                 WIFI
+                            </li>
+
+                            <li class="hab-li">
+                                <i class="fa-solid fa-snowflake"></i>
+                                Aire acondicionado 4 horas
                             </li>
                             <li class="hab-li">
                                 <i class="fa-solid fa-shower"></i>
@@ -362,16 +422,167 @@
                                 <i class="fa-solid fa-square-parking"></i>
                                 Parqueo de acceso publico
                             </li>
+                        </ul>
+                    </div>
+
+                    <div class="boton2">
+                        <span class="hab precio">
+                            $90.000 COP / noche
+                        </span>
+                        <br><br>
+                        <a class="boton boton-re" target="blank"
+                            href="https://api.whatsapp.com/send?phone=+573194792521">RESERVAR</a>
+                    </div>
+
+                </div>
+            </div>
+            <hr class="hab-hr">
+
+            <div class="habitacion1">
+                <div class="desc-hab">
+                    <img class="hab-img" src="../assets/img/habitaciones1.jpg" alt="" width="600px" height="296px">
+                </div>
+
+                <div class="desc-hab-1 habitaciones-desc-index">
+                    <div class="titulo-hab-boton">
+                        <div class="hab-descr-ec">
+                            <h2 class="subtitle"> HABITACION CUADRUPLE
+                            </h2>
+                            <p class="hab">
+                                Cama doble y 2 individuales, Aire acondicionado*
+
+                            </p>
+                        </div>
+
+
+                        <div class="boton">
+                            <span class="hab precio">
+                                $100.000 COP / noche
+                            </span>
+                            <br><br>
+                            <a class="boton boton-re" target="blank"
+                                href="https://api.whatsapp.com/send?phone=+573194792521">RESERVAR</a>
+                        </div>
+                    </div>
+
+
+                    <div class="lista-hab">
+
+                        <span class="hab">
+                            Caracteristicas:
+                        </span>
+                        <ul class="hab-ul">
+                            <li class="hab-li">
+                                <i class="fa-solid fa-wifi"></i>
+                                WIFI
+                            </li>
+
                             <li class="hab-li">
                                 <i class="fa-solid fa-snowflake"></i>
                                 Aire acondicionado 4 horas
                             </li>
+                            <li class="hab-li">
+                                <i class="fa-solid fa-shower"></i>
+                                Baño privado
+                            </li>
+                            <li class="hab-li">
+                                <i class="fa-solid fa-rug"></i>
+                                Toallas de baño
+                            </li>
+                            <li class="hab-li">
+                                <i class="fa-solid fa-kitchen-set"></i>
+                                Acceso a cocina
+                            </li>
+                            <li class="hab-li">
+                                <i class="fa-solid fa-square-parking"></i>
+                                Parqueo de acceso publico
+                            </li>
                         </ul>
-                 
-                    <div class="boton">
+                    </div>
+
+                    <div class="boton2">
+                        <span class="hab precio">
+                            $100.000 COP / noche
+                        </span>
+                        <br><br>
                         <a class="boton boton-re" target="blank"
                             href="https://api.whatsapp.com/send?phone=+573194792521">RESERVAR</a>
                     </div>
+
+                </div>
+            </div>
+            <hr class="hab-hr">
+            <div class="habitacion1">
+                <div class="desc-hab">
+                    <img class="hab-img" src="../assets/img/habitaciones1.jpg" alt="" width="600px" height="296px">
+                </div>
+
+                <div class="desc-hab-1 habitaciones-desc-index">
+                    <div class="titulo-hab-boton">
+                        <div class="hab-descr-ec">
+                            <h2 class="subtitle"> HABITACION DOBLE DELUXE
+                            </h2>
+                            <p class="hab">
+                                Cama doble, Aire acondicionado*
+
+                            </p>
+                        </div>
+
+
+                        <div class="boton">
+                            <span class="hab precio">
+                                $100.000 COP / noche
+                            </span>
+                            <br><br>
+                            <a class="boton boton-re" target="blank"
+                                href="https://api.whatsapp.com/send?phone=+573194792521">RESERVAR</a>
+                        </div>
+                    </div>
+
+
+                    <div class="lista-hab">
+
+                        <span class="hab">
+                            Caracteristicas:
+                        </span>
+                        <ul class="hab-ul">
+                            <li class="hab-li">
+                                <i class="fa-solid fa-wifi"></i>
+                                WIFI
+                            </li>
+
+                            <li class="hab-li">
+                                <i class="fa-solid fa-snowflake"></i>
+                                Aire acondicionado 4 horas
+                            </li>
+                            <li class="hab-li">
+                                <i class="fa-solid fa-shower"></i>
+                                Baño privado
+                            </li>
+                            <li class="hab-li">
+                                <i class="fa-solid fa-rug"></i>
+                                Toallas de baño
+                            </li>
+                            <li class="hab-li">
+                                <i class="fa-solid fa-kitchen-set"></i>
+                                Acceso a cocina
+                            </li>
+                            <li class="hab-li">
+                                <i class="fa-solid fa-square-parking"></i>
+                                Parqueo de acceso publico
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="boton2">
+                        <span class="hab precio">
+                            $100.000 COP / noche
+                        </span>
+                        <br><br>
+                        <a class="boton boton-re" target="blank"
+                            href="https://api.whatsapp.com/send?phone=+573194792521">RESERVAR</a>
+                    </div>
+
                 </div>
             </div>
 
@@ -395,8 +606,8 @@
                 Info & Reservaciones +57 3194792521
             </li>
             <li class="footer-li">
-                ECO & PET FRIENDLY 
-             
+                ECO & PET FRIENDLY
+
             </li>
         </ul>
 
@@ -425,6 +636,7 @@
             </ul>
         </div>
     </footer>
+    <script src="../assets/js/bootstrap.bundle.min.js"> </script>
 </body>
 
 </html>

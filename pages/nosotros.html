@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Hostal Casa el prado Cartagena</title>
+    <link rel="stylesheet" href="../assets/CSS/bootstrap.min.css">
     <link rel="stylesheet" href="../assets/CSS/index.css">
     <link rel="stylesheet" href="../assets/CSS/fontawesome.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -46,22 +47,17 @@
     <section >
         <div class="slider">
 
-            <ul>
-                <li>
-                    <img src="../assets/img/imagen-banner.jpg">
-                    
-                </li>
-                <li>
-                    <img src="../assets/img/hab3.jpg" />
-                    
-                </li>
-                <li>
-                    <img src="../assets/img/sala.jpg" />
-                </li>
-                <li>
-                    <img src="../assets/img/hab2.jpg" />
-                </li>
-            </ul>
+            <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
+               
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../assets/img/imagen-banner.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption">
+                            <h1 class="hab-h1">Nuestra historia</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
         
         </div>
 
@@ -70,9 +66,9 @@
 
     <main class="body-hostal">
         <section class="main-hostal">
-            <h1 class="subtitle"> NUESTRA HISTORIA </h1>
+            <h1 class="subtitle"> Casero, hogareño y Pet friendly </h1>
             <hr>
-            <div class=" habitacion1">
+            <div class=" habitacion1 hab1-nos">
                
                 <div class="desc-hab-nos habitaciones-desc-index">
 
@@ -194,6 +190,7 @@
             </ul>
         </div>
     </footer>
+    <script src="../assets/js/bootstrap.bundle.min.js"> </script>
 </body>
 
 </html>
