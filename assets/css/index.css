@@ -188,6 +188,24 @@ li a:hover {
 
         width: 100%;
     }
+
+    .carousel-caption,.pet-boton {
+        position: absolute;
+        right: 0;
+        bottom: 1.25rem;
+        left: 58%;
+        padding-top: 1.25rem;
+        padding-bottom: 20%;
+        color: #fff;
+        text-align: center;
+    }
+
+    .pet-boton {
+        padding-bottom: 0%;
+        left: -42%;
+        right: 0;
+        bottom: 0.25rem;
+    }
   @keyframes cambio {
 
     0% {margin-left: 0;}
@@ -353,6 +371,12 @@ p.hab-desc-index-text {
 a.boton-index {
     margin-top: 3em;
 }
+.pet-boton {
+    padding-bottom: 12%;
+    left: -42%;
+    right: 0;
+    bottom: 1.25rem;
+}
 
 a.boton:hover {
     background-color: #55d07a;
@@ -376,7 +400,7 @@ a.boton:hover {
 }
 
 div.turismo-index {
-    text-align: center;
+    text-align: justify;
 }
 
 img.turismo-index {
@@ -729,7 +753,7 @@ div.boton2{
     width: 100%;
     margin: auto;
     overflow: hidden;
-    height: 50vh;
+    padding-top: 36px;
 }
 
     .slider ul {
@@ -817,6 +841,7 @@ div.flex-hab{
         width: 100%;
         margin: auto;
         overflow: hidden;
+        padding-top: 70px;
     }
     
         .slider ul {
@@ -825,6 +850,16 @@ div.flex-hab{
             width: 400%;
             animation: none;
             animation-timing-function: ease-in;
+        }
+        .pet-boton {
+            padding-bottom: 9%;
+            left: -42%;
+            right: 0;
+            bottom: 1.25rem;
+        }
+        .carousel-caption {
+            left: 50%;
+            padding-bottom: 15%;
         }
     /*MENU HAMBURGUESA*/
 
@@ -911,6 +946,14 @@ div.flex-hab{
     a.boton {
         font-size: 14px;
         padding: 10px 20px;
+    }
+
+    a.boton-pet {
+        font-size: 14px;
+        padding: 0;
+        margin: 0;
+        background-color: transparent;
+        text-decoration-line: underline !important;
     }
 
     div.titulo-hab-boton {
