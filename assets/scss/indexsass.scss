@@ -1,0 +1,42 @@
+$fontcolor: #4a4a4a;
+$fontfamily:'Roboto Slab', serif;
+
+p,
+h1,
+h2,
+h3,
+h4,
+a,
+li,
+ul,
+span {
+
+    font-family: $fontfamily;
+
+
+
+}
+.main-hostal{
+
+    h2, h1{
+        color: green;
+    }
+    li{
+        color: green;
+    }
+    p {
+
+        font-size: 16px;
+        font-weight: 400;
+        color: $fontcolor;
+        line-height: 24px;
+
+    }
+    li,
+    ul {
+    font-weight: 300;
+}
+
+}
+
+

@@ -1,0 +1,32 @@
+p,
+h1,
+h2,
+h3,
+h4,
+a,
+li,
+ul,
+span {
+  font-family: "Roboto Slab", serif;
+}
+
+.main-hostal h2, .main-hostal h1 {
+  color: green;
+}
+
+.main-hostal li {
+  color: green;
+}
+
+.main-hostal p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #4a4a4a;
+  line-height: 24px;
+}
+
+.main-hostal li,
+.main-hostal ul {
+  font-weight: 300;
+}
+/*# sourceMappingURL=indexsass.css.map */
