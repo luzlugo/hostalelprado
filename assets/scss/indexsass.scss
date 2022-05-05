@@ -1,0 +1,76 @@
+$fontcolor: #4a4a4a;
+$fontfamily:'Roboto Slab', serif;
+
+$estilos:(
+    fuente: 16px,
+    grosor: 400,
+    color: #4a4a4a,
+    linea: 24px
+);
+@mixin sizes($w, $h) {
+
+    height: $h;
+    width: $w;
+    
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+a,
+li,
+ul,
+span {
+
+    font-family: $fontfamily;
+
+
+
+}
+
+main.body-hostal{
+
+    @include sizes(80%,auto )
+}
+.main-hostal{
+
+    h2, h1{
+        color: green;
+    }
+    li{
+        color: green;
+    }
+    p {
+
+        font-size: map-get($estilos, fuente);
+        font-weight: map-get($estilos, grosor);
+        color: $fontcolor;
+        line-height: map-get($estilos, linea);
+
+    }
+    li,
+    ul {
+    font-weight: 300;
+}
+
+}
+.boton {
+    background-color: #1a923e;
+    color: #fff;
+    font-size: 20px;
+    text-transform: capitalize;
+    padding: 15px 30px;
+    border-radius: 5px;
+    display: inline-block;
+    font-weight: 600;
+}
+
+.boton--index {
+    @extend .boton;
+    margin-top: 3em;
+}
+
+
+
