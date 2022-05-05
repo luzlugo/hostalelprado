@@ -1,0 +1,52 @@
+p,
+h1,
+h2,
+h3,
+h4,
+a,
+li,
+ul,
+span {
+  font-family: "Roboto Slab", serif;
+}
+
+main.body-hostal {
+  height: auto;
+  width: 80%;
+}
+
+.main-hostal h2, .main-hostal h1 {
+  color: green;
+}
+
+.main-hostal li {
+  color: green;
+}
+
+.main-hostal p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #4a4a4a;
+  line-height: 24px;
+}
+
+.main-hostal li,
+.main-hostal ul {
+  font-weight: 300;
+}
+
+.boton, .boton--index {
+  background-color: #1a923e;
+  color: #fff;
+  font-size: 20px;
+  text-transform: capitalize;
+  padding: 15px 30px;
+  border-radius: 5px;
+  display: inline-block;
+  font-weight: 600;
+}
+
+.boton--index {
+  margin-top: 3em;
+}
+/*# sourceMappingURL=indexsass.css.map */
