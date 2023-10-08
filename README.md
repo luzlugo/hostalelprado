@@ -1,2 +1,2 @@
 # hostalelprado
-HI! This a landing design and development for r¿the website of hostal casa el prado, we offer low cost opyions for staying in Cartagena Colombia!
+HI! This a landing design and development for hostal casa el prado's website, we offer low cost options when staying in Cartagena.
